@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 async function connect() {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/blog" , {
+    await mongoose.connect("mongodb+srv://il3sor:0823572165@cluster0.6txrx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" , {
     });
     console.log("success");
   } catch (error) {
